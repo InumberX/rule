@@ -1,4 +1,4 @@
-# AW Design Pattern
+# Styloose - CSS Loose Naming Convention
 
 ## 概要
 
