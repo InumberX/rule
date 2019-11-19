@@ -19,6 +19,9 @@
 HTML
 
 ```
-<ul>
+<ul class="list-sample">
+<li class="list-sample_item">〜</li>
+<li class="list-sample_item">〜</li>
+<li class="list-sample_item __wide">〜</li>
 </ul>
 ```
