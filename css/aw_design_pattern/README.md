@@ -16,7 +16,7 @@
 
 ### サンプル
 
-HTML
+#### HTML
 
 ```
 <ul class="list-sample">
@@ -24,4 +24,24 @@ HTML
 <li class="list-sample_item">〜</li>
 <li class="list-sample_item __wide">〜</li>
 </ul>
+```
+
+#### CSS
+
+```
+.list-sample {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+}
+
+.list-sample_item {
+width: 50%;
+}
+
+.list-sample_item.__wide {
+width: 100%;
+}
 ```
