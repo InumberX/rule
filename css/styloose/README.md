@@ -33,18 +33,18 @@
 
 ```
 .list-sample {
-list-style: none;
-margin: 0;
-padding: 0;
-display: flex;
-flex-wrap: wrap;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ flex-wrap: wrap;
 }
 
 .list-sample_item {
-width: 50%;
+ width: 50%;
 }
 
 .list-sample_item.__wide {
-width: 100%;
+ width: 100%;
 }
 ```
