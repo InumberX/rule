@@ -49,7 +49,7 @@
  width: 50%;
 }
 
-.list-sample_item.-wide {
+.list-sample__item.-wide {
  width: 100%;
 }
 ```
