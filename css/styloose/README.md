@@ -11,11 +11,16 @@
 
 * BEMをベースとしたクラス命名を行います。
 * 単語は「-（ハイフン）」で連結します。
-* BlockとElementは「_（アンダーバー）」で連結します。
-* Modifierは「__（アンダーバー2つ）」を先頭に付け、BlockまたはElementと複合クラスで使用します。
+  例）sample-name
+* BlockとElementは「__（アンダーバー2つ）」で連結します。
+  例）block-name__element-name
+* Modifierは「-（ハイフン）」を先頭に付け、BlockまたはElementと複合クラスで使用します。
+  例）-modifier-name
 * CSSのセレクタは単一または複合を基本とします。
 * 状態を表すクラスは「is-」を接頭語として付けます
+  例）is-active
 * JavaScriptで処理を行うクラスは「js-」を接頭語として付けます
+  例）js-trigger-btn
 
 ### サンプル
 
@@ -23,9 +28,9 @@
 
 ```
 <ul class="list-sample">
-<li class="list-sample_item">〜</li>
-<li class="list-sample_item">〜</li>
-<li class="list-sample_item __wide">〜</li>
+<li class="list-sample__item">〜</li>
+<li class="list-sample__item">〜</li>
+<li class="list-sample__item -wide">〜</li>
 </ul>
 ```
 
@@ -40,11 +45,11 @@
  flex-wrap: wrap;
 }
 
-.list-sample_item {
+.list-sample__item {
  width: 50%;
 }
 
-.list-sample_item.__wide {
+.list-sample_item.-wide {
  width: 100%;
 }
 ```
