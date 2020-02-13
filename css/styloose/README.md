@@ -11,7 +11,7 @@
 
 * BEMをベースとしたクラス命名を行います。
 * 単語は「-（ハイフン）」で連結します。
-  例）sample-name
+例）sample-name
 * BlockとElementは「_（アンダーバー1つ）」で連結します。
   例）block-name_element-name
 * Modifierは「is-」を先頭に付け、BlockまたはElementと複合クラスで使用します。
