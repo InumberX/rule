@@ -19,7 +19,7 @@
 * CSSのセレクタは単一または複合を基本とします。
 * JavaScriptで処理を行うクラスは「js-」を接頭語として付けます。
   例）js-trigger-btn
-* 単語は省略して命名すること推奨します。
+* 単語はなるべく省略して命名することを推奨します。
   例）header → hs, button → btn, contents → cnt, image → img, title → ttl, text → tx
 
 ### サンプル
