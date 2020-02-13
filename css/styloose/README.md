@@ -11,15 +11,11 @@
 
 * BEMをベースとしたクラス命名を行います。
 * 単語は「-（ハイフン）」で連結します。<br>例）sample-name
-* BlockとElementは「_（アンダーバー1つ）」で連結します。
-  例）block-name_element-name
-* Modifierは「is-」を先頭に付け、BlockまたはElementと複合クラスで使用します。
-  例）is-modifier-name
+* BlockとElementは「_（アンダーバー1つ）」で連結します。<br>例）block-name_element-name
+* Modifierは「is-」を先頭に付け、BlockまたはElementと複合クラスで使用します。<br>例）is-modifier-name
 * CSSのセレクタは単一または複合を基本とします。
-* JavaScriptで処理を行うクラスは「js-」を接頭語として付けます。
-  例）js-trigger-btn
-* 単語はなるべく省略して命名することを推奨します。
-  例）header → hs, button → btn, contents → cnt, image → img, title → ttl, text → tx
+* JavaScriptで処理を行うクラスは「js-」を接頭語として付けます。<br>例）js-trigger-btn
+* 単語はなるべく省略して命名することを推奨します。<br>例）header → hs, button → btn, contents → cnt, image → img, title → ttl, text → tx
 
 ### サンプル
 
@@ -31,6 +27,26 @@
 <li class="list-sample_item">〜</li>
 <li class="list-sample_item is-wide">〜</li>
 </ul>
+```
+
+#### Sass（SCSS）
+
+```
+.list-sample {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.list-sample_item {
+ width: 50%;
+
+ &.is-wide {
+  width: 100%;
+ }
+}
 ```
 
 #### CSS
