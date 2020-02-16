@@ -15,7 +15,7 @@
 * Modifierは「is-」を先頭に付け、BlockまたはElementと複合クラスで使用します。<br>例）is-modifier-name
 * CSSのセレクタは単一または複合を基本とします。
 * JavaScriptで処理を行うクラスは「js-」を接頭語として付けます。<br>例）js-trigger-btn
-* 単語はなるべく省略して命名することを推奨します。<br>例）header → hs, button → btn, contents → cnt, image → img, title → ttl, text → tx
+* 単語はなるべく省略して命名することを推奨します。<br>例）header → hd, button → btn, contents → cnt, image → img, title → ttl, text → tx
 
 ### サンプル
 
@@ -62,6 +62,8 @@
 
 .list-sample_item {
  width: 50%;
+ margin: 0;
+ padding: 0;
 }
 
 .list-sample_item.is-wide {
